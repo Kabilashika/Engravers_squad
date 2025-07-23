@@ -1,0 +1,44 @@
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore environment variable files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log and database files
+*.log
+*.sqlite3
+
+# Ignore compiled files
+*.so
+*.out
+*.o
+*.a
+*.pyc
+
+# Ignore wheel and distribution files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore node modules if you ever use JavaScript
+node_modules/
+
+# Ignore Hugging Face cache if using models
+~/.cache/huggingface/
